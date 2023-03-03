@@ -1,0 +1,29 @@
+.containerButtons {
+    // border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 3px;
+}
+
+.buttons {
+    border: 1px solid green;
+    text-decoration: none;
+    background: #264653;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f8f9fa;
+}
+
+.primary {
+    background: red;
+}
+
+
+.selectedButton {
+    background: red;
+    width: 210px;
+    clip-path: polygon(95% 0, 100% 50%, 95% 100%, 0 100%, 0 0);
+}
